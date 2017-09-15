@@ -308,7 +308,7 @@ if version >= 508 || !exists("did_typescript_syn_inits")
   HiLink typescriptFuncComma Operator
 
   HiLink typescriptHtmlEvents Special
-  HiLink typescriptHtmlElemProperties Special
+  " HiLink typescriptHtmlElemProperties Label
 
   HiLink typescriptEventListenerKeywords Keyword
 
