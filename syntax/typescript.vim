@@ -103,7 +103,7 @@ syntax keyword typescriptEventListenerMethods contained scrollIntoView addEventL
 " }}}
 "" Programm Keywords"{{{
 syntax keyword typescriptSource import export from as
-syntax keyword typescriptIdentifier arguments this let var void const
+syntax keyword typescriptIdentifier arguments this
 syntax keyword typescriptOperator delete new instanceof typeof
 syntax keyword typescriptBoolean true false
 syntax keyword typescriptNull null undefined
@@ -116,9 +116,9 @@ syntax keyword typescriptConditional if else switch
 syntax keyword typescriptRepeat do while for in of
 syntax keyword typescriptBranch break continue yield await
 syntax keyword typescriptLabel case default async readonly
-syntax keyword typescriptStatement return with
+syntax keyword typescriptStatement return with let var void const
 
-syntax keyword typescriptGlobalObjects Array Boolean Date Function Infinity Math Number NaN Object Packages RegExp String Symbol netscape
+syntax keyword typescriptGlobalObjects Array Boolean Date Function Infinity Math Number NaN Object Packages RegExp String Symbol netscape Set
 
 syntax keyword typescriptExceptions try catch throw finally Error EvalError RangeError ReferenceError SyntaxError TypeError URIError
 
